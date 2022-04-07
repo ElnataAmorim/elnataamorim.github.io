@@ -1,0 +1,126 @@
+body {
+    background-image: url(./fotos\ spider/spiderfundo.jpg);
+    color: white;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 15px;
+}   
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: center;
+    line-height: 10px;
+    
+}
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover {
+    color: red;
+    transition: 0.3s all;
+
+}
+
+li {
+    display: inline-block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top:50px; 
+}
+
+#center {
+    background-color: red;
+    color: white;
+    width: 15%;
+}
+
+#container {
+    font-size: 60px;
+    line-height: 1px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 40%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    
+
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+img {
+    width: 400px;
+    padding: 200px;
+    margin-top: 0px auto;
+    
+}
+
+#cadastro-btn {
+    border: 2px solid red;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#cadastro-btn:hover {
+    background-color: red;
+    color: white;
+}
+#hero {
+    margin: 210px;
+    margin-left: 300px;
+    line-height: 50px;
+    margin-top: 160px;
+   
+   
+}
+
+section {
+    text-align: center;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
